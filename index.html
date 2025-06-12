@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Internet: Historia, Estructura y Tecnología</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: lightcyan;
+        }
+        header {
+            background: white;
+            color: black;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: black;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #2c3e50;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .references {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El Internet y su historia</h1>
+    </header>
+    <nav>
+        <a href="#historia">Historia</a>
+        <a href="#estructura">Estructura</a>
+        <a href="#componentes">Componentes</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#seguridad">Seguridad</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#referencias">Referencias</a>
+    </nav>
+    <div class="container">
+        <section id="internet">
+            <h2>¿Qué es el Internet?</h2>
+        <p>El Internet es una red de computadoras que se encuentran interconectadas a nivel mundial para compartir información. Se trata de un conjunto de equipos que se relacionan entre sí a través de la utilización de un lenguaje universal.</p>  
+        <p>La interconexión de Internet se logra mediante diversos protocolos y servicios. Los protocolos son elementos que permiten la unión de la red y la transmisión de información, puesto que fragmentan, unen y traducen los mensajes para que los datos lleguen correctamente de una computadora a otra. Por su parte, los servicios son los que permiten a los usuarios crear, enviar, recibir y acceder a la información. Los más conocidos son el correo electrónico, los chats, las redes sociales y la web, es decir, el conjunto de sitios en línea.</p>
+        <p>Además, existen diferentes tipos de conexión a Internet, esto es, distintos medios por los que las personas pueden conectarse a la red de redes. El primero de ellos fue la conexión por dial-up o acceso telefónico, es decir, aquel que se realizaba con un módem y una línea telefónica. Luego surgieron otros tipos más modernos, como la banda ancha por ADSL, la fibra óptica y la conectividad 3G, 4G (LTE) y 5G para dispositivos móviles.</p>
+        <p>Para acceder a los billones de páginas web disponibles en la gran red de redes, se utilizan los navegadores web. Los más reconocidos son Google Chrome, Internet Explorer, Mozilla Firefox y Safari. Todos fueron desarrollados por distintas compañías tecnológicas.</p>
+        </section>
+    </div>
+    <div class="container">
+        <section id="historia">
+            <h2>Linea del tiempo del Internet</h2>
+            <p><strong>1969 – Nacimiento de ARPANET:</strong> El origen del Internet comienza con ARPANET (Advanced Research Projects Agency Network), un proyecto del Departamento de Defensa de los Estados Unidos. ARPANET permitió la conexión entre cuatro universidades con el objetivo de compartir información de manera rápida y segura. Esta fue la primera red que permitió la comunicación entre computadoras distantes.</p>
+            <p><strong>1973 – Desarrollo del protocolo TCP/IP:</strong> Vinton Cerf y Robert Kahn diseñan el protocolo TCP/IP (Transmission Control Protocol / Internet Protocol), una estructura técnica que permite que redes diferentes se comuniquen entre sí. Este avance fue esencial para el crecimiento del Internet global.</p>
+            <p><strong>1983 – Nace oficialmente Internet:</strong> El 1 de enero de 1983, ARPANET adopta el protocolo TCP/IP, lo que marca el nacimiento oficial de Internet. Desde este momento, múltiples redes empezaron a conectarse utilizando este lenguaje común.</p>
+            <p><strong>1990 – Creación de la World Wide Web:</strong> Tim Berners-Lee, un científico británico del CERN, inventa la World Wide Web (WWW), un sistema de documentos de hipertexto accesibles a través de navegadores web. También crea el lenguaje HTML, el primer navegador y el primer sitio web del mundo.</p>
+            <p><strong>1993 – Lanzamiento del navegador Mosaic:</strong> Mosaic fue el primer navegador gráfico que permitió a los usuarios comunes acceder y navegar fácilmente por la Web. Fue un punto de inflexión que permitió que el Internet creciera rápidamente entre el público general.</p>
+            <p><strong>1998 – Nace Google:</strong> Dos estudiantes de Stanford, Larry Page y Sergey Brin, lanzan Google. El motor de búsqueda ofrecía resultados relevantes y ordenados, revolucionando la forma en que accedemos a la información.</p>
+            <p><strong>2004 – Auge de las redes sociales:</strong> Comienza la era de las redes sociales con la llegada de plataformas como Facebook, YouTube, Twitter, entre otras. Cambian la manera en que las personas se comunican y comparten contenido a nivel mundial.</p>
+            <p><strong>Hoy – Expansión global del Internet:</strong> Más de 5,000 millones de personas están conectadas a Internet. Está presente en teléfonos inteligentes, hogares, autos, relojes y más. Se utiliza en todos los ámbitos: educación, salud, trabajo, entretenimiento y relaciones personales.</p>
+            <div><img src="img/lineadetiempo.jpg" width="50%"></div>
+
+        </section>
+
+        <section id="estructura">
+            <h2>Estructura</h2>
+            <p>La estructura de internet se basa en una jerarquía de redes interconectadas, sin una autoridad central, donde los usuarios acceden a la red global a través de Proveedores de Servicios de Internet (ISP). Cada ISP es parte de una red más grande, y estas redes se interconectan para formar la red global. </p>
+            <ul>
+                <li><strong>Proveedores de Servicios de Internet (ISP):</strong> Empresas que conectan a los usuarios a la red global.</li>
+                <li><strong>Proveedores de Servicios de Red (NSP):</strong> Empresas que proporcionan servicios de transporte de datos a larga distancia.</li>
+                <li><strong>Puntos de Intercambio de Internet (IX):</strong> Lugares donde las redes de distintos proveedores se interconectan.</li>
+                <li><strong>Direcciones IP: </strong> Direcciones únicas que identifican cada dispositivo conectado a la red.</li>
+                <li><strong>Protocolos: </strong> Conjunto de reglas que definen cómo se debe transmitir la información a través de la red.</li>
+                <li><strong>URL (Localizador Uniforme de Recursos): </strong> La dirección de una página web o recurso en la red.</li>
+                <li><strong>Capa física: </strong> La infraestructura física (cables, etc.) que permite la transmisión de datos.</li>
+            </ul>
+        </section>
+
+        <section id="componentes">
+            <h2>Componentes</h2>
+            <p>Los componentes de internet son dispositivos cliente (computadoras, teléfonos, etc.), servidores que alojan información y servicios, redes que conectan estos dispositivos, y protocolos que regulan la comunicación. También incluyen hardware (dispositivos físicos como routers y cables) y software (programas que permiten acceder a internet).</p>
+            <ul>
+                <li><strong>Dispositivos cliente:</strong> Son los dispositivos que se conectan a internet para solicitar información y servicios, como computadoras, teléfonos inteligentes, tabletas, etc.</li>
+                <li><strong>Servidores:</strong> Son computadoras que almacenan y sirven información, aplicaciones y servicios a los clientes, como servidores web, servidores de correo, etc.</li>
+                <li><strong>Redes:</strong> Son las interconexiones que permiten la comunicación entre los dispositivos cliente y los servidores, como redes locales (LAN), redes de área metropolitana (MAN), redes de área amplia (WAN) y la propia red de internet.</li>
+                <li><strong>Protocolos:</strong> Son reglas que definen cómo se comunican los dispositivos en la red, como TCP/IP, HTTP, FTP, etc.</li>
+                <li><strong>Hardware:</strong> Incluye los dispositivos físicos necesarios para la comunicación, como routers, switches, modems, cables, tarjetas de red, etc.</li>
+                <li><strong>Software:</strong> Incluye los programas que permiten a los usuarios acceder y utilizar internet, como navegadores web, software de correo electrónico, software de redes sociales, etc.</li>
+            </ul>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Internet ofrece una amplia gama de servicios que facilitan la comunicación, el acceso a la información y la realización de diversas tareas. Algunos de los servicios más comunes incluyen el correo electrónico, las redes sociales, la web, los motores de búsqueda, el streaming de video y música, el comercio electrónico, la banca en línea y la telefonía por Internet.</p>
+            <ul>
+                <li><strong>Correo electrónico:</strong> Permite enviar y recibir mensajes de forma digital.</li>
+                <li><strong>Redes sociales:</strong> Plataformas en línea que permiten a las personas conectarse y compartir contenido.</li>
+                <li><strong>World Wide Web (la web):</strong> Permite acceder a información en formato de hipertexto a través de enlaces.</li>
+                <li><strong> Buscadores:</strong> Herramientas para encontrar información en la web.</li>
+                <li><strong>Streaming de video y música:</strong> Servicios que permiten ver videos y escuchar música en línea.</li>
+                <li><strong>Comercio electrónico:</strong> Permite comprar y vender productos y servicios en línea.</li>
+                <li><strong>Banca en línea:</strong> Permite realizar transacciones bancarias y gestionar cuentas a través de Internet.</li>
+                <li><strong>Telefonía por Internet (VoIP):</strong> Permite realizar llamadas de voz a través de Internet.</li>
+                <li><strong>Almacenamiento en la nube:</strong> Servicios que permiten almacenar datos en servidores remotos.</li>
+                <li><strong>Transferencia de archivos (FTP):</strong> Permite subir y descargar archivos entre computadoras.</li>
+                <li><strong>Chat y mensajería instantánea:</strong> Servicios que permiten comunicarse en tiempo real con otras personas.</li>
+                <li><strong>Escuelas virtuales:</strong> Plataformas en línea para la educación.</li>
+                <li><strong>Juegos multijugador en línea:</strong> Juegos que se pueden jugar con otros jugadores en línea.</li>
+                <li><strong>Grupos de noticias y listas de distribución:</strong> Plataformas para discutir temas específicos.</li>
+                <li><strong>Blogs:</strong> Páginas personales o de interés donde se publican artículos y contenido.</li>
+                <li><strong>Portales:</strong> Páginas web con enlaces a otras páginas y contenidos.</li>
+                <li><strong>Foros:</strong> Plataformas para la discusión y el intercambio de ideas sobre temas específicos.</li>
+                <li><strong>Servicios de tiempo:</strong> Sincronización del reloj del ordenador con servidores de tiempo.</li>
+                <li><strong>Aplicaciones móviles:</strong> Aplicaciones que se pueden utilizar en dispositivos móviles para acceder a Internet y sus servicios.</li>
+                <div><img src="img/servicios.jpg" width="50%"></div>
+            </ul>
+        </section>
+
+        <section id="seguridad">
+            <h2>Seguridad</h2>
+            <p>La seguridad es crucial debido a amenazas como:</p>
+            <ul>
+                <li><strong>Malware:</strong> Software malicioso (virus, ransomware).</li>
+                <li><strong>Phishing:</strong> Robo de información mediante engaños.</li>
+                <li><strong>Ataques DDoS:</strong> Sobrecarga de servidores con tráfico falso.</li>
+            </ul>
+            <p>Medidas de protección:</p>
+            <ul>
+                <li>Uso de <strong>firewalls</strong> y <strong>antivirus</strong>.</li>
+                <li>Contraseñas seguras y autenticación de dos factores (2FA).</li>
+                <li>Cifrado de datos (ej: HTTPS, VPN).</li>
+                <div><img src="img/seguridad.jpg" width="50%"></div>
+            </ul>
+        </section>
+
+        <section id="tecnologia">
+            <h2>Tecnologías</h2>
+            <ul>
+                <li><strong>IPv6:</strong> Nuevo protocolo para más direcciones IP.</li>
+                <li><strong>5G:</strong> Mayor velocidad en conexiones móviles.</li>
+                <li><strong>IoT (Internet de las Cosas):</strong> Dispositivos conectados (ej: smart home).</li>
+                <li><strong>Blockchain:</strong> Tecnología descentralizada (ej: criptomonedas).</li>
+                <div><img src="img/tecnologia.jpg" width="50%"></div>
+            </ul>
+        </section>
+
+        <section id="referencias" class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>Leiner, B. M., et al. (1997). "A Brief History of the Internet". <em>Internet Society</em>.</li>
+                <li>Cerf, V. & Kahn, R. (1974). "A Protocol for Packet Network Intercommunication". <em>IEEE</em>.</li>
+                <li>Berners-Lee, T. (1989). "Information Management: A Proposal". <em>CERN</em>.</li>
+                <li>Stallings, W. (2020). <em>Data and Computer Communications</em>. Pearson.</li>
+                <li>Kurose, J. F. & Ross, K. W. (2021). <em>Computer Networking: A Top-Down Approach</em>.</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p> Steven David Nájera Gutiérrez - Grupo: 401 - Escuela: Universidad Autonoma de Guerrero (UaGro) -
+            4to Semestre - Proyecto sobre el Internet y sus tecnologías
+        </p>
+    </footer>
+</body>
+</html>
